@@ -3,7 +3,7 @@ Monte Carlo simulation of the **SU(2) Wilson action** in a 4D lattice. We comput
 
 ## 🌟 Highlights
 
-This repository contains a **Fortran** implementation of a ** Metropolis Monte Carlo** algorithm for **SU(2)** lattice gauge theory using the Wilson action:
+This repository contains a **Fortran** implementation of a **Metropolis Monte Carlo** algorithm for **SU(2)** lattice gauge theory using the Wilson action:
 
 $S_G[U] = \frac{\beta}{N} \sum_{n \in \Lambda} \sum_{\mu < \nu}
 \mathrm{Re}\,\mathrm{Tr}\left[ 1 - U_{\mu\nu}(n) \right]$
