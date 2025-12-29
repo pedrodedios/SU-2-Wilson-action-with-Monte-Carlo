@@ -27,29 +27,29 @@ For a detailed theoretical overview of SU(2) lattice gauge theory with the Wilso
 
 ## 🚀 Usage
 
-1️⃣ Compile the utility module
+1️⃣ **Compile the utility module**
 
 This module contains lattice indexing routines and SU(2) matrix utilities.
 
 gfortran -O3 -fopenmp -c gauge_utils.f90
 
-2️⃣ Compile the Metropolis module
+2️⃣ **Compile the Metropolis module**
 
 This module implements the Metropolis update algorithm and measurements.
 
 gfortran -O3 -fopenmp -c metropolis_module.f90
 
-3️⃣ Compile the main program
+3️⃣ **Compile the main program**
 
 The main program sets simulation parameters and runs the Monte Carlo loop.
 
 gfortran -O3 -fopenmp -c wilson_gauge.f90
 
-4️⃣ Link all object files
+4️⃣ **Link all object files**
 
 gfortran -O3 -fopenmp gauge_utils.o metropolis_module.o wilson_gauge.o -o wilson_gauge
 
-5️⃣ Run simulations
+5️⃣ **Run simulations**
 
 Simulation parameters (lattice size, number of sweeps, β values, etc.) are defined directly in the main source file.
 
