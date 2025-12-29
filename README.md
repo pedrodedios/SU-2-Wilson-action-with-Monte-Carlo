@@ -21,7 +21,7 @@ Main features:
 -**Computation of fundamental thermodynamic observables: Average energy ⟨E⟩ and specific heat $\chi_{\beta}$** 
 
 	
-For a detailed theoretical overview of SU(2) lattice gauge theory with the Wilson action, see the accompanying documentation: **[Lattice_QCD.pdf](https://github.com/user-attachments/files/24371960/Lattice_QCD.pdf)**
+For a detailed theoretical overview of SU(2) lattice gauge theory with the Wilson action, see the accompanying documentation: **[Lattice_QCD.pdf](https://github.com/user-attachments/files/24373483/Lattice_QCD.pdf)**
 
 
 
