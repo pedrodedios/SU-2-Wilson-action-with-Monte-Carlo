@@ -24,7 +24,7 @@ For a detailed theoretical overview of SU(2) lattice gauge theory with the Wilso
 
 
 
-## 🚀 Usage
+## Usage
 
 1️⃣ **Compile the utility module**
 
